@@ -1,2 +1,2 @@
 # STOPAMONGUS
-This site is made for (???) purposes.
+This site is made for (???) purposes. 🤔
