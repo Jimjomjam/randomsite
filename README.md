@@ -1,2 +1,2 @@
 # Note
-This site is not finished nor done in atleast 10%. Why? Lazy. 
+This site is a fresh project, currently working on it.
