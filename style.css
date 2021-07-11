@@ -1,0 +1,137 @@
+body {
+    background-color: #1c1c1c;
+}
+
+body {
+     overflow-y: hidden; /* Hide vertical scrollbar */
+     overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+@media (orientation: portrait) {
+    .header {
+        position: relative; left:350px;
+    }
+    .navigation {
+        position: relative; right:350px; top:-300px;
+    }
+    p.navtext {
+        font-size:150px;
+        width:100%
+    }
+    marquee {
+        visibility: hidden;
+    }
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #1c1c1c;
+}
+
+.secondary_header{
+    width:1000px;
+    position: relative; left:455px;
+    height:100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(41, 40, 40);
+    border: 1px solid #ccc;
+}
+
+.navigation {
+    color:#aca49c;
+    width: 1900px;
+    height:100%;
+    display: table-cell;
+    vertical-align:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #1c1c1c;
+    font-size:60px;
+    border: 1px solid #ccc;
+}
+
+
+
+li.secondary_headerH {
+    position: relative;top:-70px; right:25px;
+    background-color: rgb(41, 40, 40);
+    height:0px;
+    font-size:50px;
+}
+li.third_headerH{
+    position: relative;top:-85px; left:120px;
+    background-color: rgb(41, 40, 40);
+    height:0px;
+    font-size:50px;
+}
+
+ul  {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Helvetica;
+    color:rgb(194, 194, 194);
+
+}
+
+li a {
+    color: rgb(52,146,250);
+}
+
+li a:hover {
+    color: rgb(0, 119, 255);
+}
+
+ul li a:hover {
+    color:rgb(255, 253, 253)
+}
+
+p.paragraph1 {
+    color:#aca49c;
+    height:50%;
+    display: table-cell;
+    vertical-align:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #1c1c1c;
+    position: relative; right:800px; top: 5px;
+    font-size:60px;
+}
+
+p.paragraph2 {
+    color:rgb(218, 216, 216);
+    font-size:100px;
+    height:690px;
+    position:relative; top:120px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style:solid;
+    border-color:rgb(85, 82, 82);
+}
+
+p.paragraph3 {
+    color: rgb(218, 216, 216);
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height:0px;
+}
+/* RNG HTML */
+button.generation {
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:white;
+    border-radius:25px;
+    border-color:#ccc;
+
+}
+
+p.RNG_fonting {
+    color:#ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;   
+}
+input[type=number]:focus {
+    background-color: lightblue;
+}
+}
