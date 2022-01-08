@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="randomsiteicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>randomsite</title>
+</head>
+<body>      
+            <div id="dashboard">
+            <p class="paragraph1D" onclick="window.location.reload();">DASHBOARD</p>
+            <button class="buttongen"><span><a href="index.html" style="color:white; text-decoration: none;">Home</a></span></button>
+            <button class="buttongen"><span><a href="RNG.html" style="color:white; text-decoration: none;">RNG</a></span></button>
+            <button class="buttongen"><span><a href="colors.html" style="color:white; text-decoration: none;">Colors</a></span></button>
+            </div> 
+        <marquee scrollamount="50" style="color: aliceblue; background-color: #1c1c1c; height:30px; font-size:25px;">Welcome to the RNG.</marquee>
+        <p class="paragraph1">
+            Customize the input, and click "Generate a number".
+        </p>
+        <p id="standard" class="RNG_fonting" style="position: relative; top:260px;">
+            <button class="generation">Generate a number</button>
+            between
+            <input type="number" id="lownumber" value="1">
+            and
+            <input type="number" id="highnumber" value="100">
+            =
+            <outpu id="output"></output>
+                <script src="rng.js"></script>
+        </p>
+
