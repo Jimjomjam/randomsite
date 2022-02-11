@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="randomsiteicon.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>randomsite</title>
+</head>
+<body>      
+            <div id="dashboard">
+            <p class="paragraph1D" onclick="window.location.reload();">DASHBOARD</p>
+            <button class="buttongen"><span><a href="index.html" style="color:white; text-decoration: none;">Home</a></span></button>
+            <button class="buttongen"><span><a href="RNG.html" style="color:white; text-decoration: none;">RNG</a></span></button>
+            <button class="buttongen"><span><a href="painter.html" style="color:white; text-decoration: none;">Painter</a></span></button>
+            </div>   
+            <marquee scrollamount="50" style="color: aliceblue; background-color: #1c1c1c; height:30px; font-size:25px;">Welcome to the Painter.</marquee>
+            <div id="tab">
+                <h1>Tab</h1>>
+                <label for="Color">Color:</label>
+                <input type="color">
+                <label for="Width">Width</label>
+                <input type="number">
+                <p>still in progress</p>
+            </div>
+            <canvas id="myCanvas" width="1900" height="550" style="border:1px solid white;">
+            </canvas>
+            <script src="painter.js"></script>
+</body>
+</html>
